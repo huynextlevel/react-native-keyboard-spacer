@@ -1,0 +1,35 @@
+{
+  "name": "react-native-keyboard-spacer",
+  "version": "1.0.0",
+  "description": "This is a react native keyboard spacer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynextlevel/react-native-floating-heart.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "keyboard",
+    "spacer",
+    "ios",
+    "android",
+    "mobile",
+    "ui"
+  ],
+  "author": "Huy Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huynextlevel/react-native-keyboard-spacer/issues"
+  },
+  "homepage": "https://github.com/huynextlevel/react-native-keyboard-spacer#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.66.2"
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { KeyboardSpacer } from 'react-native-keyboard-spacer';
+import { KeyboardSpacer } from 'react-native-keyboard-spacer-fixed';
 
 const App = () => {
 	return <React.Fragment>

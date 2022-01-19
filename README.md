@@ -8,19 +8,19 @@ A simple React Native component that implement a keyboard spacer.
 If using yarn:
 
 ```
-yarn add react-native-keyboard-spacer
+yarn add react-native-keyboard-spacer-fixed
 ```
 
 If using npm:
 
 ```
-npm i react-native-keyboard-spacer
+npm i react-native-keyboard-spacer-fixed
 ```
 
 ## Usage
 
 ```
-import { KeyboardSpacer } from 'react-native-keyboard-spacer';
+import { KeyboardSpacer } from 'react-native-keyboard-spacer-fixed';
 ```
 
 Simply place a `<KeyboardSpacer />` tag.

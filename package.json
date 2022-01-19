@@ -1,5 +1,5 @@
 {
-  "name": "react-native-keyboard-spacer",
+  "name": "react-native-keyboard-spacer-fixed",
   "version": "1.0.0",
   "description": "This is a react native keyboard spacer.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huynextlevel/react-native-floating-heart.git"
+    "url": "git+https://github.com/huynextlevel/react-native-keyboard-spacer.git"
   },
   "keywords": [
     "react",

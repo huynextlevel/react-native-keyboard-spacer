@@ -26,13 +26,6 @@ import { KeyboardSpacer } from 'react-native-keyboard-spacer-fixed';
 Simply place a `<KeyboardSpacer />` tag.
 
 ```
-const [heartCount, setHeartCount] = useState(0);
-
-const addHeart = () => {
-  let newCount = heartCount + 1;
-  setHeartCount(newCount++);
-}
-
 return <React.Fragment>
   <View style={styles.container}>
     <Text style={[styles.description, { fontSize: 20 }]}>React Native Keyboard Spacer</Text>

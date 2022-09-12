@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Dimensions, Animated, Keyboard } from 'react-native';
 
-const KeyboardSpacer = ({ space }) => {
+const KeyboardSpacer = ({ space, isUsingNativeDriver }) => {
   const [state, setState] = useState({
     keyboardHeight: 0,
   });
@@ -26,6 +26,7 @@ const KeyboardSpacer = ({ space }) => {
     Animated.timing(imageHeight, {
       duration: 240,
       toValue: e.endCoordinates.height - space,
+      useNativeDriver: isUsingNativeDriver ? isUsingNativeDriver : true,
     }).start();
   }
 
@@ -33,6 +34,7 @@ const KeyboardSpacer = ({ space }) => {
     Animated.timing(imageHeight, {
       duration: 240,
       toValue: 0,
+      useNativeDriver: isUsingNativeDriver ? isUsingNativeDriver : true,
     }).start();
   }
 
